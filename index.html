@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Charlisa Tan | Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar fade-in">
+        <div class="logo">CT.</div>
+        <div class="nav-links">
+            <a href="#about"><span style="color:var(--accent-color)">01.</span> About</a>
+            <a href="#projects"><span style="color:var(--accent-color)">02.</span> Projects</a>
+            <a href="#experience"><span style="color:var(--accent-color)">03.</span> Experience</a>
+            <a href="assets/Resume_TanYuEnCharlisa.pdf" class="resume-btn" download="Charlisa_Tan_Resume.pdf">Resume</a>
+        </div>
+    </nav>
+
+    <div class="sidebar fade-in delay-3">
+        <a href="https://github.com/charlisaa" target="_blank" aria-label="GitHub">
+            <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+        </a>
+        <a href="mailto:charblahh1@gmail.com" aria-label="Email">
+            <svg class="social-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+        </a>
+    </div>
+
+    <main>
+        <section class="hero">
+            <h1 class="fade-in delay-1">Hi, my name is</h1>
+            <h2 class="fade-in delay-2">Charlisa Tan.</h2>
+            <h3 class="fade-in delay-3">I build things for the web.</h3>
+            <p class="fade-in delay-3">
+                I’m a <strong>graduate of Nanyang Polytechnic</strong> specializing in building (and occasionally breaking) exceptional digital experiences. Currently, I'm building my digital portfolio and focusing on full-stack development and accessible design.
+            </p>
+            <div class="fade-in delay-3">
+                <a href="#projects" class="resume-btn" style="padding: 1rem 1.5rem;">Check out my work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-header">
+                <h2><span>01.</span> About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                        Hello! My interest in IT started back in 2020. Fast-forward to today, and I’ve had the privilege of working on student projects and various hackathons.
+                    </p>
+                    <p style="color: var(--text-secondary);">Here are a few technologies I've been working with:</p>
+                    <ul class="tech-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Git / GitHub</li>
+                    </ul>
+                </div>
+                <div class="profile-pic-wrapper">
+                    <div class="profile-placeholder">
+                        [Your Photo]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header">
+                <h2><span>02.</span> Some Things I've Built</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-header">
+                        <svg class="folder-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                        <a href="#">↗</a>
+                    </div>
+                    <h3>Course Scheduler</h3>
+                    <p>A web app that helps students visualize their semester timetable. Built with React and Firebase to handle user authentication and data storage.</p>
+                    <div class="card-tech">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <svg class="folder-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                        <a href="#">↗</a>
+                    </div>
+                    <h3>Weather Dashboard</h3>
+                    <p>A clean dashboard consuming the OpenWeather API to display current conditions and forecasts for multiple cities.</p>
+                    <div class="card-tech">
+                        <span>JS</span>
+                        <span>API</span>
+                        <span>HTML</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <svg class="folder-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                        <a href="#">↗</a>
+                    </div>
+                    <h3>Python Scraper</h3>
+                    <p>An automation script that scrapes daily news headlines and saves them to a CSV file for analysis.</p>
+                    <div class="card-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-header">
+                <h2><span>03.</span> Where I’ve Worked</h2>
+            </div>
+
+            <div class="experience-content" style="max-width: 700px;">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="job-header">
+                        <span class="job-title">Software Engineering Intern <span class="company-name">@ StartUp Inc</span></span>
+                    </div>
+                    <div class="job-date">May 2025 - Present</div>
+                    <ul class="job-desc">
+                        <li>Developed and maintained code for client websites using HTML, CSS, Sass, and JavaScript.</li>
+                        <li>Collaborated with the design team to ensure pixel-perfect implementation of UI/UX designs.</li>
+                        <li>Participated in code reviews and learned Agile methodologies.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="job-header">
+                        <span class="job-title">Teaching Assistant <span class="company-name">@ University</span></span>
+                    </div>
+                    <div class="job-date">Sept 2024 - Dec 2024</div>
+                    <ul class="job-desc">
+                        <li>Assisted 50+ students with Python programming concepts and debugging assignments.</li>
+                        <li>Held weekly office hours to review course material and proctored exams.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="job-header">
+                        <span class="job-title">Technical Lead <span class="company-name">@ Coding Club</span></span>
+                    </div>
+                    <div class="job-date">Jan 2024 - May 2024</div>
+                    <ul class="job-desc">
+                        <li>Organized a university-wide hackathon with over 200 participants.</li>
+                        <li>Built the event landing page and managed registration data using SQL.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer style="text-align: center; padding: 20px; font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary);">
+            <p>Built by Charlisa Tan</p>
+        </footer>
+
+    </main>
+</body>
+</html>
