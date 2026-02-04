@@ -62,8 +62,14 @@
         }
 
         .logo { font-family: var(--font-mono); color: var(--accent-color); font-weight: bold; font-size: 1.2rem; }
-        
-        .nav-links { display: flex; gap: 2rem; font-family: var(--font-mono); font-size: 0.85rem; }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            align-items: center;
+        }
         
         .resume-btn {
             border: 1px solid var(--accent-color);
